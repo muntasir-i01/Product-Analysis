@@ -1,9 +1,17 @@
 import './HOME.css'
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
 
 import { NavLink } from "react-router-dom";
 
 const HOME = () => {
+    const [reviews, setReviews] = useState([]);
+
+    useEffect( () => {
+        fetch('Reviews.json')
+        .then(res => res.json())
+        .then(data => setReviews(data))
+    }, [])
     return (
         <div>
             
@@ -57,7 +65,14 @@ const HOME = () => {
             <button className='btn'>Live Collection</button>
 
             <div>
-                <span className='client-review'>Client Reviews</span>
+                <span className='client-review'>Client Reviews(3)</span>
+
+                {
+                reviews.slice(0,3).map(review => <ClientReview key={review.id} Car={review.Car} first_name={review.first_name} 
+                Review={review.Review} Rating={review.Rating}></ClientReview>)
+            }
+
+
                 <NavLink 
               to="/reviews"
             >
@@ -67,5 +82,19 @@ const HOME = () => {
         </div>
     );
 };
+
+
+function ClientReview(props) {
+    const {Car, first_name, Review, Rating} = props;
+    return(
+        <div className='review-3'>
+            <h3>Car: {Car}</h3>
+            <h3>Name: {first_name}</h3>
+            <h3>Review: {Review}</h3>
+            <h3>Rating: {Rating}</h3>
+        </div>
+    )
+}
+
 
 export default HOME;

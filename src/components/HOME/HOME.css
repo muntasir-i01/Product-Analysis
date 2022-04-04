@@ -46,9 +46,21 @@
     padding: 10px;
     font-weight: bolder;
     margin-left: 45%;
-    margin-top: 20%;
+    
     background-image: linear-gradient(darkblue, rgb(71, 47, 47));
     color: white;
     font-weight: 900;
+}
+
+.review-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid aqua;
+    background-image: linear-gradient(cyan, olive);
+    color: rgb(29, 45, 54);
+
 }
 
