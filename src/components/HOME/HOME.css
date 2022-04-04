@@ -4,6 +4,51 @@
     margin: 25px;
 }
 
-.nav-bar :hover {
-    color: yellow;
+.home {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.h-1 {
+    color: rgb(224, 11, 11);
+    font-size: 40px;
+}
+
+.h-2 {
+    color: darkblue;
+    font-size: 40px;
+}
+
+.client-review {
+    font-size: 40px;
+    margin-left: 45%;
+    font-weight: 500;
+    color: brown;
+}
+
+.btn {
+    margin: 40px;
+    margin-left: 90px;
+    text-decoration: none;
+    background-color: cadetblue;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.btn-2 {
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    font-weight: bolder;
+    margin-left: 45%;
+    margin-top: 20%;
+    background-image: linear-gradient(darkblue, rgb(71, 47, 47));
+    color: white;
+    font-weight: 900;
+}
+

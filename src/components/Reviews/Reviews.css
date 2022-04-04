@@ -1,5 +1,15 @@
 h2 {
     text-align: center;
-    color: orangered;
+    color: rgb(19, 40, 107);
     font-size: 50px;
+}
+
+.review {
+    text-align: center;
+    border: 3px solid rgb(114, 7, 114);
+    margin: 15px;
+    padding: 10px;
+    background-image: linear-gradient(cyan, blue);
+    color: azure;
+        
 }
