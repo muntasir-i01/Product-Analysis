@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 const Blogs = () => {
     return (
         <div>
+            <div>
             <div className="container">
             <NavLink
               exact = {true}
@@ -42,6 +43,12 @@ const Blogs = () => {
             </NavLink>
             </div>
             <p></p>
+        </div>
+
+        <div className='qa'>
+            <p>Question: What is context API? <br /> Answer: </p>
+            <p>Question:What is semantic tag? <br /> Answer: </p>
+        </div>
         </div>
     );
 };

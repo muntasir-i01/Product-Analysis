@@ -1,3 +1,13 @@
+# Car World
+
+* Added route path, navlink for SPA for all pages
+* Create 5 components and also for 404
+* Show reviews data from fakeDB
+* add charts for dashboard
+
+
+Runs the spa project in the development mode.\
+Open [Car World](https://whimsical-cendol-7a4aa3.netlify.app/) to view
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
