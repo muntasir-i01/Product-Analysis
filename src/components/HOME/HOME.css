@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.nav-bar :hover {
+    color: yellow;
+}
