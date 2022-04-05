@@ -8,7 +8,8 @@ const useReview = () => {
         fetch('Reviews.json')
         .then(res => res.json())
         .then(data => setReviews(data))
-    },[])
+    }, [])
+
     return [reviews, setReviews];
 };
 

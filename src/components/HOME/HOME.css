@@ -23,7 +23,7 @@
 
 .client-review {
     font-size: 40px;
-    margin-left: 45%;
+    margin-left: 40%;
     font-weight: 500;
     color: brown;
 }
@@ -45,7 +45,7 @@
     width: 20%;
     padding: 10px;
     font-weight: bolder;
-    margin-left: 45%;
+    margin-left: 40%;
     
     background-image: linear-gradient(darkblue, rgb(71, 47, 47));
     color: white;
@@ -59,8 +59,21 @@
     margin: 20px;
     padding: 15px;
     border: 5px solid aqua;
-    background-image: linear-gradient(cyan, olive);
-    color: rgb(29, 45, 54);
+    background-image: linear-gradient(cyan, olive);    
+    text-align: center;
+   
+
+    color: rgb(234, 231, 238);
+    text-shadow:
+        0 0 7px rgb(223, 199, 199),
+        0 0 10px rgb(184, 124, 124),
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
 
 }
+
 
