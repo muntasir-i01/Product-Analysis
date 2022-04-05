@@ -2,11 +2,6 @@ h2 {
     text-align: center;
     color: rgb(19, 40, 107);
     font-size: 50px;
-
-    position: relative;
-    animation: mymove 3s infinite;
-    
-    animation-timing-function: ease-in-out;
 }
 
 .review {
@@ -16,19 +11,4 @@ h2 {
     padding: 10px;
     background-image: linear-gradient(cyan, blue);
     color: #fff;
-    text-shadow:
-      0 0 7px rgb(146, 91, 91),
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #0fa,
-      0 0 82px #0fa,
-      0 0 92px #0fa,
-      0 0 102px #0fa,
-      0 0 151px #0fa;
-        
 }
-
-@keyframes mymove {
-    from {left: 0px;}
-    to {left: 400px;}
-  }
