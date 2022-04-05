@@ -6,13 +6,14 @@ import About from "./components/About/About";
 import Blogs from "./components/Blogs/Blogs";
 import Dashboard from "./components/Dashboard/Dashboard";
 import HOME from "./components/HOME/HOME";
+import Navbar from "./components/Navbar/Navbar";
 import NotFound from "./components/NotFound/NotFound";
 import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
     <div>
-   
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<HOME />} />
         <Route path="/reviews" element={<Reviews />} />
