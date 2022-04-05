@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Porsche",
+      "price": 40000,
+      "cc": 2000
+    },
+    {
+      "name": "Mercedes",
+      "price": 30000,
+      "cc": 1000
+    },
+    {
+      "name": "Ferrari",
+      "price": 20000,
+      "cc": 1500
+    },
+    {
+      "name": "Aston Martin",
+      "price": 27800,
+      "cc": 3000
+    },
+    {
+      "name": "Jaguar",
+      "price": 18900,
+      "cc": 1500
+    },
+    {
+      "name": "Chevrolet",
+      "price": 23900,
+      "cc": 1300
+    },
+    {
+      "name": "Lamborghini ",
+      "price": 34900,
+      "cc": 2100
+    }
+  ]

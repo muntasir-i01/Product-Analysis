@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 
 import { NavLink } from "react-router-dom";
+import useReview from '../../hook/useReview';
 
 const HOME = () => {
     const [reviews, setReviews] = useState([]);
@@ -12,7 +13,7 @@ const HOME = () => {
         .then(res => res.json())
         .then(data => setReviews(data))
     }, [])
-    return (
+        return (
         <div>
             
             <div className='home'>
@@ -29,7 +30,9 @@ const HOME = () => {
             <button className='btn'>Live Collection</button>
 
             <div>
-                <span className='client-review'>Client Reviews(3)</span>
+                <span className='client-review'>Client Reviews(3) <br />
+                
+                </span>
 
                 {
                 reviews.slice(0,3).map(review => <ClientReview key={review.id} Car={review.Car} first_name={review.first_name} 
